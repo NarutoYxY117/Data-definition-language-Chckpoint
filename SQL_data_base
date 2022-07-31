@@ -1,7 +1,7 @@
-creaction de base de donne 
+creaction of database
 CREATE DATABASE Store;
 
-creaction de table customer
+creaction of customer table
 CREATE TABLE customer ( 
 customer_id int(20) PRIMARY KEY, 
 customer_name varchar(20) NOT NULL, 
@@ -9,7 +9,7 @@ customer_tel int(20)
 );
 
 
-CREACTION DE TABLE PRODUCT
+CREACTION OF PRODUCT TABLE
 CREATE TABLE product ( 
 product_id int(20) PRIMARY KEY, 
 product_name varchar(20) NOT NULL, 
@@ -18,7 +18,7 @@ product_gategory varchar(20)
 );
 
 
-CREACTION DE TABLE ORDERS 
+CREACTION OF ORDERS TABLE 
 CREATE TABLE orders ( 
 customer_id varchar(20), 
 product_id varchar(20), 
